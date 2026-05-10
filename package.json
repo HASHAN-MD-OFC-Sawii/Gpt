@@ -28,7 +28,7 @@
     "wikipedia": "^2.1.2",
     "google-tts-api": "^2.0.2",
     "qrcode-terminal": "^0.12.0",
-    "node-fetch": "^2.7.0",
+    "node-fetch": "2.6.7",
     "node-cache": "^5.1.2",
     "file-type": "^16.5.4",
     "wa-sticker-formatter": "^4.4.4",
