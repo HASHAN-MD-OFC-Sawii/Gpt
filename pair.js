@@ -51,8 +51,8 @@ const config = {
 };
 // ---------------- MONGO SETUP ----------------
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://trf09:2XoKUhZ7TNIta1Va@gpt.n2okkrn.mongodb.net/';
-const MONGO_DB = process.env.MONGO_DB || 'GPT';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://dumiyhfx:glitchbota@glitchbota.jnmw0jy.mongodb.net/';
+const MONGO_DB = process.env.MONGO_DB || 'glitchbota';
 let mongoClient, mongoDB;
 let sessionsCol, numbersCol, adminsCol, newsletterCol, configsCol, newsletterReactsCol;
 
