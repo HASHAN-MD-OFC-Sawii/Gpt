@@ -1,20 +1,25 @@
 {
-  "name": "GPT X BOT",
-  "version": "1.0.0",
-  "description": "WhatsApp Bot with Multi-Number Support",
+  "name": "GPT-TEAM-MINI",
+  "version": "3.0.0",
+  "description": "WhatsApp Bot with Multi-Device Support and Auto-Cleanup",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --expose-gc index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.9",
+    "baileys": "npm:baileyz@latest",
     "express": "^4.18.2",
+    "puppeteer": "24.34.0",
     "form-data": "^4.0.2",
     "fs-extra": "^11.2.0",
     "sqlite3": "^5.1.7",
     "pino": "^8.17.0",
-    "jimp": "^0.22.12",
+    "movanest": "^1.1.6",
+    "jimp": "^0.16.13",
+    "child_process": "^1.0.2",
     "mongoose": "8.16.0",
+    "path": "^0.12.7",
     "moment-timezone": "^0.6.0",
     "axios": "^1.7.9",
     "yt-search": "^2.12.1",
@@ -28,19 +33,22 @@
     "node-cache": "^5.1.2",
     "file-type": "^16.5.4",
     "wa-sticker-formatter": "^4.4.4",
+    "node-gtts": "^2.0.2",
     "qrcode": "^1.5.4",
+    "os": "^0.1.2",
     "fluent-ffmpeg": "^2.1.3",
     "ffmpeg-static": "^5.1.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "22.x"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "multi-device",
-    "baileys"
+    "baileys",
+    "queen-seya"
   ],
-  "author": "dula",
+  "author": "raviya",
   "license": "MIT"
 }
